@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/secondBlue"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Filtrera efter.."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="34dp" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_marginLeft="40px"
+        android:layout_marginRight="40px"
+        android:layout_marginTop="250px"
+        android:id="@+id/cardone"
+        android:layout_width="match_parent"
+        android:layout_height="200px"
+        app:layout_constraintTop_toTopOf="parent"
+        app:cardBackgroundColor="@color/mainBlue"
+        >
+
+        <TextView
+            android:textStyle="bold"
+            android:layout_marginTop="20px"
+            android:layout_marginLeft="400px"
+            android:id="@+id/titleone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Aftonbladet" />
+
+        <TextView
+            android:layout_marginTop="0px"
+            android:layout_gravity="center"
+            android:id="@+id/cityone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Luleå" />
+
+        <TextView
+            android:layout_gravity="center"
+            android:layout_marginTop="50px"
+            android:id="@+id/hoursone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1-3 timmar per vecka" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_marginLeft="40px"
+        android:layout_marginRight="40px"
+        android:layout_marginTop="50px"
+        android:id="@+id/cardtwo"
+        android:layout_width="match_parent"
+        android:layout_height="200px"
+        app:layout_constraintTop_toBottomOf="@id/cardone"
+        app:cardBackgroundColor="@color/mainBlue"
+        >
+
+        <TextView
+            android:textStyle="bold"
+            android:layout_marginTop="20px"
+            android:layout_marginLeft="400px"
+            android:id="@+id/titletwo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Aftonbladet" />
+
+        <TextView
+            android:layout_marginTop="0px"
+            android:layout_gravity="center"
+            android:id="@+id/citytwo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Luleå" />
+
+        <TextView
+            android:layout_gravity="center"
+            android:layout_marginTop="50px"
+            android:id="@+id/hourstwo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1-3 timmar per vecka" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_marginLeft="40px"
+        android:layout_marginRight="40px"
+        android:layout_marginTop="50px"
+        android:id="@+id/cardthree"
+        android:layout_width="match_parent"
+        android:layout_height="200px"
+        app:layout_constraintTop_toBottomOf="@id/cardtwo"
+        app:cardBackgroundColor="@color/mainBlue"
+        >
+
+        <TextView
+            android:textStyle="bold"
+            android:layout_marginTop="20px"
+            android:layout_marginLeft="400px"
+            android:id="@+id/titlethree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Aftonbladet" />
+
+        <TextView
+            android:layout_marginTop="0px"
+            android:layout_gravity="center"
+            android:id="@+id/citythree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Luleå" />
+
+        <TextView
+            android:layout_gravity="center"
+            android:layout_marginTop="50px"
+            android:id="@+id/hoursthree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1-3 timmar per vecka" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_marginLeft="40px"
+        android:layout_marginRight="40px"
+        android:layout_marginTop="50px"
+        android:id="@+id/cardfour"
+        android:layout_width="match_parent"
+        android:layout_height="200px"
+        app:layout_constraintTop_toBottomOf="@id/cardthree"
+        app:cardBackgroundColor="@color/mainBlue"
+        >
+
+        <TextView
+            android:textStyle="bold"
+            android:layout_marginTop="20px"
+            android:layout_marginLeft="400px"
+            android:id="@+id/titlefour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Aftonbladet" />
+
+        <TextView
+            android:layout_marginTop="0px"
+            android:layout_gravity="center"
+            android:id="@+id/cityfour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Luleå" />
+
+        <TextView
+            android:layout_gravity="center"
+            android:layout_marginTop="50px"
+            android:id="@+id/hoursfour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1-3 timmar per vecka" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardfive"
+        android:layout_width="match_parent"
+        android:layout_height="200px"
+        android:layout_marginTop="50px"
+        android:layout_marginLeft="40px"
+        android:layout_marginRight="40px"
+        app:layout_constraintTop_toBottomOf="@id/cardfour"
+        app:cardBackgroundColor="@color/mainBlue"
+        >
+
+        <TextView
+            android:textStyle="bold"
+            android:layout_marginTop="20px"
+            android:layout_marginLeft="400px"
+            android:id="@+id/titlefive"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Aftonbladet" />
+
+        <TextView
+            android:layout_marginTop="0px"
+            android:layout_gravity="center"
+            android:id="@+id/cityfive"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Luleå" />
+
+        <TextView
+            android:layout_gravity="center"
+            android:layout_marginTop="50px"
+            android:id="@+id/hoursfive"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1-3 timmar per vecka" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardsix"
+        android:layout_width="match_parent"
+        android:layout_height="200px"
+        android:layout_marginLeft="40px"
+        android:layout_marginRight="40px"
+        android:layout_marginTop="50px"
+        app:layout_constraintTop_toBottomOf="@id/cardfive"
+        app:cardBackgroundColor="@color/mainBlue"
+        >
+
+        <TextView
+            android:textStyle="bold"
+            android:layout_marginTop="20px"
+            android:layout_marginLeft="400px"
+            android:id="@+id/titlesix"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Aftonbladet" />
+
+        <TextView
+            android:layout_marginTop="0px"
+            android:layout_gravity="center"
+            android:id="@+id/citysix"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Luleå" />
+
+        <TextView
+            android:layout_gravity="center"
+            android:layout_marginTop="50px"
+            android:id="@+id/hourssix"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1-3 timmar per vecka" />
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
