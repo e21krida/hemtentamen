@@ -15,9 +15,9 @@
         android:inputType="textPersonName"
         android:text="Filtrera efter.."
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="100px"
         tools:layout_editor_absoluteY="34dp" />
 
     <androidx.cardview.widget.CardView
@@ -26,7 +26,7 @@
         android:layout_marginTop="250px"
         android:id="@+id/cardone"
         android:layout_width="match_parent"
-        android:layout_height="200px"
+        android:layout_height="250px"
         app:layout_constraintTop_toTopOf="parent"
         app:cardBackgroundColor="@color/mainBlue"
         >
@@ -34,14 +34,14 @@
         <TextView
             android:textStyle="bold"
             android:layout_marginTop="20px"
-            android:layout_marginLeft="400px"
+            android:layout_marginLeft="430px"
             android:id="@+id/titleone"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Aftonbladet" />
+            android:text="ByggAB" />
 
         <TextView
-            android:layout_marginTop="0px"
+            android:layout_marginTop="-20px"
             android:layout_gravity="center"
             android:id="@+id/cityone"
             android:layout_width="wrap_content"
@@ -50,11 +50,19 @@
 
         <TextView
             android:layout_gravity="center"
-            android:layout_marginTop="50px"
+            android:layout_marginTop="40px"
             android:id="@+id/hoursone"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="1-3 timmar per vecka" />
+
+        <TextView
+            android:layout_gravity="center"
+            android:layout_marginTop="100px"
+            android:id="@+id/abilityone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Erfarenhet krävs" />
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
@@ -63,35 +71,43 @@
         android:layout_marginTop="50px"
         android:id="@+id/cardtwo"
         android:layout_width="match_parent"
-        android:layout_height="200px"
+        android:layout_height="250px"
         app:layout_constraintTop_toBottomOf="@id/cardone"
         app:cardBackgroundColor="@color/mainBlue"
         >
 
         <TextView
+            android:layout_gravity="center"
             android:textStyle="bold"
-            android:layout_marginTop="20px"
-            android:layout_marginLeft="400px"
+            android:layout_marginTop="-90px"
             android:id="@+id/titletwo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Aftonbladet" />
+            android:text="MyWay" />
 
         <TextView
-            android:layout_marginTop="0px"
+            android:layout_marginTop="-20px"
             android:layout_gravity="center"
             android:id="@+id/citytwo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Luleå" />
+            android:text="Umeå" />
 
         <TextView
             android:layout_gravity="center"
-            android:layout_marginTop="50px"
+            android:layout_marginTop="40px"
             android:id="@+id/hourstwo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="1-3 timmar per vecka" />
+            android:text="2-7 timmar per vecka" />
+
+        <TextView
+            android:layout_gravity="center"
+            android:layout_marginTop="100px"
+            android:id="@+id/abilitytwo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Erfarenhet krävs ej" />
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
@@ -100,22 +116,22 @@
         android:layout_marginTop="50px"
         android:id="@+id/cardthree"
         android:layout_width="match_parent"
-        android:layout_height="200px"
+        android:layout_height="250px"
         app:layout_constraintTop_toBottomOf="@id/cardtwo"
         app:cardBackgroundColor="@color/mainBlue"
         >
 
         <TextView
+            android:layout_gravity="center"
             android:textStyle="bold"
-            android:layout_marginTop="20px"
-            android:layout_marginLeft="400px"
+            android:layout_marginTop="-90px"
             android:id="@+id/titlethree"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Aftonbladet" />
+            android:text="Blizzard" />
 
         <TextView
-            android:layout_marginTop="0px"
+            android:layout_marginTop="-20px"
             android:layout_gravity="center"
             android:id="@+id/citythree"
             android:layout_width="wrap_content"
@@ -124,11 +140,19 @@
 
         <TextView
             android:layout_gravity="center"
-            android:layout_marginTop="50px"
+            android:layout_marginTop="40px"
             android:id="@+id/hoursthree"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="1-3 timmar per vecka" />
+
+        <TextView
+            android:layout_gravity="center"
+            android:layout_marginTop="100px"
+            android:id="@+id/abilitythree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Erfarenhet krävs ej" />
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
@@ -137,41 +161,49 @@
         android:layout_marginTop="50px"
         android:id="@+id/cardfour"
         android:layout_width="match_parent"
-        android:layout_height="200px"
+        android:layout_height="250px"
         app:layout_constraintTop_toBottomOf="@id/cardthree"
         app:cardBackgroundColor="@color/mainBlue"
         >
 
         <TextView
+            android:layout_gravity="center"
             android:textStyle="bold"
-            android:layout_marginTop="20px"
-            android:layout_marginLeft="400px"
+            android:layout_marginTop="-90px"
             android:id="@+id/titlefour"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Aftonbladet" />
+            android:text="Riot" />
 
         <TextView
-            android:layout_marginTop="0px"
+            android:layout_marginTop="-20px"
             android:layout_gravity="center"
             android:id="@+id/cityfour"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Luleå" />
+            android:text="Skövde" />
 
         <TextView
             android:layout_gravity="center"
-            android:layout_marginTop="50px"
+            android:layout_marginTop="40px"
             android:id="@+id/hoursfour"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="1-3 timmar per vecka" />
+            android:text="3-4 timmar per vecka" />
+
+        <TextView
+            android:layout_gravity="center"
+            android:layout_marginTop="100px"
+            android:id="@+id/abilityfour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Erfarenhet krävs" />
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardfive"
         android:layout_width="match_parent"
-        android:layout_height="200px"
+        android:layout_height="250px"
         android:layout_marginTop="50px"
         android:layout_marginLeft="40px"
         android:layout_marginRight="40px"
@@ -186,60 +218,31 @@
             android:id="@+id/titlefive"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Aftonbladet" />
+            android:text="Sriracha AB" />
 
         <TextView
-            android:layout_marginTop="0px"
+            android:layout_marginTop="-20px"
             android:layout_gravity="center"
             android:id="@+id/cityfive"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Luleå" />
+            android:text="Stockholm" />
 
         <TextView
             android:layout_gravity="center"
-            android:layout_marginTop="50px"
+            android:layout_marginTop="40px"
             android:id="@+id/hoursfive"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="1-3 timmar per vecka" />
-    </androidx.cardview.widget.CardView>
-
-    <androidx.cardview.widget.CardView
-        android:id="@+id/cardsix"
-        android:layout_width="match_parent"
-        android:layout_height="200px"
-        android:layout_marginLeft="40px"
-        android:layout_marginRight="40px"
-        android:layout_marginTop="50px"
-        app:layout_constraintTop_toBottomOf="@id/cardfive"
-        app:cardBackgroundColor="@color/mainBlue"
-        >
-
-        <TextView
-            android:textStyle="bold"
-            android:layout_marginTop="20px"
-            android:layout_marginLeft="400px"
-            android:id="@+id/titlesix"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Aftonbladet" />
-
-        <TextView
-            android:layout_marginTop="0px"
-            android:layout_gravity="center"
-            android:id="@+id/citysix"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Luleå" />
 
         <TextView
             android:layout_gravity="center"
-            android:layout_marginTop="50px"
-            android:id="@+id/hourssix"
+            android:layout_marginTop="100px"
+            android:id="@+id/abilityfive"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="1-3 timmar per vecka" />
+            android:text="Erfarenhet krävs ej" />
     </androidx.cardview.widget.CardView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
